@@ -1081,19 +1081,19 @@ export const projectSidebarLists = [
 export const contactTopInfos = [
     {
         icon: <i className="fas fa-paper-plane"></i>,
-        title: 'Email',
+        title: 'Email us on',
         textOne: 'iqbalsayyed00@gmail.com',
         // textTwo: 'cityscape@example.com',
         link: 'mailto:iqbalsayyed00@gmail.com'
     },
     {
         icon: <i className="fas fa-map-marker-alt"></i>,
-        title: 'Location',
+        title: 'Find us on',
         text: '115, First Floor, Seawood Corner, Sector-25, Seawoods, Nerul (E). Navi Mumbai - 400706',
     },
     {
         icon: <i className="fas fa-phone"></i>,
-        title: 'Contacts ',
+        title: 'Call us on ',
         textOne: '+(91) 983 347 1151',
         // textTwo: '(557) 284-3641 ',
         link: 'tel:+919833471151'

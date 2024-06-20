@@ -5,7 +5,7 @@ import { slugURL } from '../../utility/Utility';
 
 const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, badgeClass, btnRenderBottom, btnRenderRight}) => {
 
-    const { thumb, price, day, title, desc, locationIcon, location, amenities,  btnText, dataSort, dataStatuses, dataTypes, dataLocations } = property; 
+    const { thumb, price, title, description, locationIcon, location, btnText, dataSort, dataStatuses, dataTypes, dataLocations } = property; 
 
     // Details Slug
     const propertyURL = slugURL({url: 'property', slug: title}); 
@@ -35,7 +35,7 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                 datasort={dataSort}
             >
                 <div className="property-item__thumb">
-                    <Link to={propertyURL} state={{ thumb, title, desc, price}} className="link">
+                    <Link to={propertyURL} state={{ title, price}} className="link">
                         <img src={thumb} alt="" className="cover-img"/>
                     </Link> 
                     {
@@ -46,17 +46,17 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                 </div>
                 <div className="property-item__content">    
                     <h6 className="property-item__price">{price}
-                        <span className="day">{day}</span> 
+                        <span className="day"></span> 
                     </h6>
                     <h6 className="property-item__title"> 
-                        <Link to={propertyURL} state={{ thumb, title, desc, price}} className="link">{title}</Link> 
+                        <Link to={propertyURL} state={{ title, description, price}} className="link">{title}</Link> 
                     </h6>
                     <p className="property-item__location d-flex gap-2"> 
                         <span className={`icon ${iconsClass}`}> {locationIcon}</span>
                         {location}
                     </p>
                     <div className="property-item__bottom flx-between gap-2">
-                        <ul className="amenities-list flx-align">
+                        {/* <ul className="amenities-list flx-align">
                             {
                                 amenities.map((amenity, amenityIndex) => {
                                     return (
@@ -67,10 +67,10 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                                     )
                                 })
                             }
-                        </ul>
+                        </ul> */}
                         {
                             btnRenderRight && (
-                                <Link to={propertyURL} state={{ thumb, title, desc, price}} className={`simple-btn ${btnClass}`}>
+                                <Link to={propertyURL} state={{ thumb, title, description, price}} className={`simple-btn ${btnClass}`}>
                                     {btnText}
                                     <span className="icon-right"> <i className="fas fa-arrow-right"></i> </span> 
                                 </Link>
@@ -81,7 +81,7 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                     {
                         btnRenderBottom &&
                         (
-                            <Link to={propertyURL} state={{ thumb, title, desc, price}} className={`simple-btn ${btnClass}`}>
+                            <Link to={propertyURL} state={{ thumb, title, description, price}} className={`simple-btn ${btnClass}`}>
                                 {btnText}
                                 <span className="icon-right"> <i className="fas fa-arrow-right"></i> </span> 
                             </Link>
@@ -94,8 +94,5 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
 };
 
 export default PropertyItem;
-
-
-
 
 

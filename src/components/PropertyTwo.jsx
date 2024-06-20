@@ -7,6 +7,8 @@ import PropertyItem from './items/PropertyItem';
 import { properties } from '../data/HomeOneData/HomeOneData';
 
 const PropertyTwo = () => {
+    
+
     return (
         <>
             <section className="property-two bg-gray-100 padding-t-60 padding-b-120">

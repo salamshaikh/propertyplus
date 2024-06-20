@@ -1,5 +1,5 @@
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import PropertyItem from './items/PropertyItem';
 import { properties } from '../data/HomeOneData/HomeOneData';
 import Pagination from '../common/Pagination';
@@ -7,6 +7,18 @@ import PropertyFilterBottom from './PropertyFilterBottom';
 import PropertyFilterForm from './PropertyFilterForm';
 
 const PropertyPageSection = () => {
+    const [properties, setData] = useState([]);
+
+    useEffect(() => {
+        axios.get('http://localhost:5000/api/properties')
+            .then(response => {
+                setData(response.data);
+            })
+            .catch(error => {
+                console.error('There was an error fetching the data!', error);
+            });
+    }, []);
+
     return (
         <>
             <section className="property bg-gray-100 padding-y-120">
@@ -38,6 +50,7 @@ const PropertyPageSection = () => {
                             })
                         }
                     </div>
+                    
 
                     {/* Pagination */}
                     <Pagination/>

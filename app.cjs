@@ -66,6 +66,18 @@ app.post('/contact', (req, res) => {
   });
 });
 
+// Example endpoint to fetch properties
+app.get('/api/properties', (req, res) => {
+  const query = 'SELECT title, description, status, type, price, area, location FROM property';
+  db.query(query, (err, results) => {
+      if (err) {
+          res.status(500).json({ error: err.message });
+      } else {
+          res.json(results);
+      }
+  });
+});
+
 // POST endpoint to handle contact form submission
 app.post('/postproperty', (req, res) => {
   const { name, email, phone, role, title, description, status, type, price, area, location } = req.body;

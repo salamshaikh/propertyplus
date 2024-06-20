@@ -263,14 +263,14 @@ export const footerGallery = [
 ]
 
 export const BottomFooterLink = [
-    {
-        text: 'Terms & Condition',
-        link: '/contact'
-    },
-    {
-        text: 'Privacy Policy',
-        link: '/contact'
-    },
+    // {
+    //     text: 'Terms & Condition',
+    //     link: '/contact'
+    // },
+    // {
+    //     text: 'Privacy Policy',
+    //     link: '/contact'
+    // },
     {
         text: 'Contact Us',
         link: '/contact'

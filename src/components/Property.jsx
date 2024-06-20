@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import SectionHeading from '../common/SectionHeading';
 import PropertyItem from './items/PropertyItem';
 import { properties } from '../data/HomeOneData/HomeOneData';
 import Button from '../common/Button';
 
 const Property = () => {
+    
     return (
         <>
             {/* ============================ property Start ==================== */}
@@ -32,7 +33,7 @@ const Property = () => {
                                         <PropertyItem 
                                             itemClass=""
                                             btnClass=""
-                                            property={property}
+                                            property={property}                                                                                    
                                             badgeText="Sales"
                                             badgeClass="property-item__badge"
                                             iconsClass=""

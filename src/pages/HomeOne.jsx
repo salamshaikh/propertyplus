@@ -11,7 +11,7 @@ import Portfolio from '../components/Portfolio';
 import Testimonial from './../components/Testimonial';
 import Blog from './../components/Blog';
 import FooterTwo from './../common/FooterTwo';
-import Message from './../components/Message';
+import ContactUsSection from '../components/ContactUsSection';
 import MobileMenu from '../common/MobileMenu';
 import OffCanvas from '../common/OffCanvas';
 import PageTitle from '../common/PageTitle';
@@ -64,7 +64,7 @@ const HomeOne = () => {
                 <Counter/>
 
                 {/* Message */}
-                <Message/>
+                <ContactUsSection/>
 
                 {/* Portfolio */}
                 <Portfolio/>

@@ -7,6 +7,7 @@ import { properties } from '../data/HomeOneData/HomeOneData';
 import SearchSidebar from '../common/SearchSidebar';
 
 const PropertySidebarSection = () => {
+    
     return (
         <>
             {/* =========================== Property Sidebar Section Start ====================== */}

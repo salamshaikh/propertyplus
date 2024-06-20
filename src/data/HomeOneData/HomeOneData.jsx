@@ -446,12 +446,12 @@ export const testimonials = [
         desc: 'Their product exceeded his my routi  expectations. The the quality and attention to detail a the a moutstanding and it has become an essential most a education the a man who can do tant clearly', 
         quote: quoteIcon
     },
-    {
-        name: 'John Doe',
-        designation: 'Frontend Developer',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, autem! Consectetur illo tempora sed repudiandae eaque velit expedita, ipsa earum explicabo libero, voluptatibus aliquid odio', 
-        quote: quoteIcon
-    },
+    // {
+    //     name: 'John Doe',
+    //     designation: 'Frontend Developer',
+    //     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, autem! Consectetur illo tempora sed repudiandae eaque velit expedita, ipsa earum explicabo libero, voluptatibus aliquid odio', 
+    //     quote: quoteIcon
+    // },
 ]
 
 // Blog Data

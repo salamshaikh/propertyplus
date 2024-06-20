@@ -5,6 +5,7 @@ const FooterInfo = () => {
     return (
         <>
               <div className="row gy-4">
+                
                 {
                     footerInfos.map((footerInfo, footerInfoIndex) => {
                         return (
