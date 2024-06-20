@@ -190,7 +190,7 @@ const ListingContactDetails = () => {
                             <div className="select-has-icon icon-black">
                                 <select name="type" className="select common-input" id="type"  value={formData.name}
     onChange={handleChange}>
-                                    <option value="1" disabled="">Type</option>
+                                    <option value="" disabled="">Type</option>
                                     <option value="1 BHK">1 BHK</option>
                                     <option value="2 BHK">2 BHK</option>
                                     <option value="3 BHK">3 BHK</option>
@@ -215,7 +215,7 @@ const ListingContactDetails = () => {
                             <div className="select-has-icon icon-black">
                                 <select name="location" className="select common-input" id="location"  value={formData.name}
     onChange={handleChange}>
-                                    <option value="Nerul / Seawoods">Select your area</option>
+                                    <option value="">Select your area</option>
                                     <option value="Nerul / Seawoods">Nerul / Seawoods</option>
                                     <option value="Ulwe">Ulwe</option>
                                     <option value="Vashi">Vashi</option>

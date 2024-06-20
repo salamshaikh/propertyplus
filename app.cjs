@@ -12,14 +12,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // MySQL Connection
 const db = mysql.createConnection({
-  // host: 'localhost',
-  // user: 'root',
-  // password: '',
-  // database: 'property'
-  host: "demotest.mysql.database.azure.com",
-  user: "codecwsq_wp605",
-  password: "Welcome@123",
-  database: "codecwsq_wp605"
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'property'
+  // host: "demotest.mysql.database.azure.com",
+  // user: "codecwsq_wp605",
+  // password: "Welcome@123",
+  // database: "codecwsq_wp605"
 });
 
 // Connect to MySQL

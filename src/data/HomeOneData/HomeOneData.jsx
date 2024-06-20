@@ -79,8 +79,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Newest',
         dataStatuses: 'Sell',
-        dataTypes: 'Houses',
-        dataLocations: "Bangladesh",
+        dataTypes: '2 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 2,
@@ -104,8 +104,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Best Seller',
         dataStatuses: 'Buy',
-        dataTypes: 'Apartments',
-        dataLocations: "Japan",
+        dataTypes: '1 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 3,
@@ -130,7 +130,7 @@ export const properties = [
         dataSort: 'Best Match',
         dataStatuses: 'Rent',
         dataTypes: 'Office',
-        dataLocations: "Korea",
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 4,
@@ -154,8 +154,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Low Price',
         dataStatuses: 'Sell',
-        dataTypes: 'Villa',
-        dataLocations: "Singapore",
+        dataTypes: '3 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 5,
@@ -179,8 +179,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'High Price',
         dataStatuses: 'Buy',
-        dataTypes: 'Houses',
-        dataLocations: "Germany",
+        dataTypes: '2 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 6,
@@ -204,8 +204,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Medium Price',
         dataStatuses: 'Rent',
-        dataTypes: 'Apartments',
-        dataLocations: "Thailand",
+        dataTypes: '1 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 7,
@@ -230,7 +230,7 @@ export const properties = [
         dataSort: 'Best Seller',
         dataStatuses: 'Sell',
         dataTypes: 'Office',
-        dataLocations: "Bangladesh",
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 8,
@@ -254,8 +254,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Best Match',
         dataStatuses: 'Buy',
-        dataTypes: 'Villa',
-        dataLocations: "Japan",
+        dataTypes: '3 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 9,
@@ -279,8 +279,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Low Price',
         dataStatuses: 'Rent',
-        dataTypes: 'Houses',
-        dataLocations: "Korea",
+        dataTypes: '2 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 10,
@@ -304,8 +304,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'High Price',
         dataStatuses: 'Sell',
-        dataTypes: 'Apartments',
-        dataLocations: "Singapore",
+        dataTypes: '1 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 11,
@@ -330,7 +330,7 @@ export const properties = [
         dataSort: 'Newest',
         dataStatuses: 'Buy',
         dataTypes: 'Office',
-        dataLocations: "Germany",
+        dataLocations: "Nerul / Seawoods",
     },
     {
         id: 12,
@@ -354,8 +354,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Best Seller',    
         dataStatuses: 'Rent',
-        dataTypes: 'Villa',
-        dataLocations: "Thailand",
+        dataTypes: '3 BHK',
+        dataLocations: "Nerul / Seawoods",
     },
 ]
 
