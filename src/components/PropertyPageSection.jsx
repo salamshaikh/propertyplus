@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import PropertyItem from './items/PropertyItem';
-import { properties } from '../data/HomeOneData/HomeOneData';
+// import { properties } from '../data/HomeOneData/HomeOneData';
 import Pagination from '../common/Pagination';
 import PropertyFilterBottom from './PropertyFilterBottom';
 import PropertyFilterForm from './PropertyFilterForm';
@@ -39,7 +39,7 @@ const PropertyPageSection = () => {
                                             itemClass="property-item style-two style-shaped"
                                             btnClass="text-gradient fw-semibold"
                                             property={property}
-                                            badgeText="Sales"
+                                            badgeText={property.category}
                                             badgeClass="property-item__badge"
                                             iconsClass="text-gradient"
                                             btnRenderBottom={true}

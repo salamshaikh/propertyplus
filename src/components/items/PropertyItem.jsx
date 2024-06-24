@@ -1,12 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useContext,useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PropertyFilterContext } from '../../contextApi/PropertyFilterContext';
 import { slugURL } from '../../utility/Utility';
 
-const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, badgeClass, btnRenderBottom, btnRenderRight}) => {
-
-    const { thumb, price, title, description, locationIcon, location, btnText, dataSort, dataStatuses, dataTypes, dataLocations } = property; 
-
+const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, badgeClass, btnRenderBottom, btnRenderRight }) => {
+    //const [properties, setProperties] = useState([]);
+    
+    const { thumb, price, title, description, locationIcon, location, btnText, dataSort, dataStatuses, dataTypes, dataLocations, images } = property; 
+    
+    // Parse the images array from the JSON string
+    const image = images ? JSON.parse(images) : [];
+    
     // Details Slug
     const propertyURL = slugURL({url: 'property', slug: title}); 
 
@@ -35,14 +39,18 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                 datasort={dataSort}
             >
                 <div className="property-item__thumb">
-                    <Link to={propertyURL} state={{ title, price}} className="link">
-                        <img src={thumb} alt="" className="cover-img"/>
+                {images && images.length > 0 && (
+                    <Link to={propertyURL} state={{ title, price }} className="link">
+                        <img 
+                            src={`http://localhost:5000/uploads/${image[0]}`} 
+                            alt={title} className="cover-img"
+                            // style={{ width: '300px', height: '200px', objectFit: 'cover' }}
+                        />
                     </Link> 
-                    {
-                        renderBadge && (
-                            <span className={badgeClass}>{badgeText}</span>
-                        )
-                    }
+                )}
+                {   renderBadge && (
+                    <span className={badgeClass}>{badgeText}</span>
+                )}
                 </div>
                 <div className="property-item__content">    
                     <h6 className="property-item__price">{price}
@@ -52,7 +60,7 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                         <Link to={propertyURL} state={{ title, description, price}} className="link">{title}</Link> 
                     </h6>
                     <p className="property-item__location d-flex gap-2"> 
-                        <span className={`icon ${iconsClass}`}> {locationIcon}</span>
+                        <span className={`icon ${iconsClass}`}><i class="fas fa-map-marker-alt"></i> {locationIcon}</span>
                         {location}
                     </p>
                     <div className="property-item__bottom flx-between gap-2">
