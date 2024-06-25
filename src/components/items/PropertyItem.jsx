@@ -42,7 +42,7 @@ const PropertyItem = ({ property, itemClass, iconsClass, btnClass, badgeText, ba
                 {images && images.length > 0 && (
                     <Link to={propertyURL} state={{ title, price }} className="link">
                         <img 
-                            src={`http://localhost:5000/uploads/${image[0]}`} 
+                            src={`https://propertyplus-73fd49e82310.herokuapp.com/uploads/${image[0]}`} 
                             alt={title} className="cover-img"
                             // style={{ width: '300px', height: '200px', objectFit: 'cover' }}
                         />
