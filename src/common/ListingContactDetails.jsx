@@ -50,7 +50,7 @@ const ListingContactDetails = () => {
 
         try {
             setUploadStatus('Uploading...');
-            const response = await axios.post('http://localhost:5000/postproperty', data, {
+            const response = await axios.post('https://propertyplus-73fd49e82310.herokuapp.com/postproperty', data, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }

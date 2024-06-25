@@ -13,7 +13,7 @@ const ContactUsSection = () => {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const response = await axios.post('http://localhost:5000/contact', data);
+            const response = await axios.post('https://propertyplus-73fd49e82310.herokuapp.com/contact', data);
             form.current.reset();
             toast.success("Congratulations! You Have Submitted Successfully.", {
                 theme: "colored",

@@ -16,7 +16,7 @@ const NewsletterForm = (props) => {
     
         onSubmit: async (values, { resetForm }) => {
           try {
-            const response = await axios.post('http://localhost:5000/subscribe', values);
+            const response = await axios.post('https://propertyplus-73fd49e82310.herokuapp.com/subscribe', values);
             console.log(response.data);
             toast.success("Congratulations! You Have Submitted Successfully.", {
               theme: "colored",
