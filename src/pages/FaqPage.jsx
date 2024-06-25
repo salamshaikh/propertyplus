@@ -7,12 +7,14 @@ import FaqTwo from '../components/FaqTwo';
 import FaqContactUs from '../components/FaqContactUs';
 import CounterFour from '../components/CounterFour';
 import PageTitle from '../common/PageTitle';
+import TopHeader from '../common/TopHeader';
 
 const FaqPage = () => {
     return (
         <>
         <PageTitle title="Property Plus - FAQ" />
-
+            {/* Top header */}
+            <TopHeader/>
             {/* Header */}
             <Header 
                 headerClass="dark-header has-border" 
@@ -42,7 +44,7 @@ const FaqPage = () => {
             <FaqContactUs/>
 
             {/* Counter Four */}
-            <CounterFour/>
+            {/* <CounterFour/> */}
             
             {/* Cta */}
             <Cta ctaClass=""/>

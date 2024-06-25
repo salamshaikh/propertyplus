@@ -6,13 +6,16 @@ import Cta from '../components/Cta';
 import AboutThree from '../components/AboutThree';
 import PropertyTypeThree from '../components/PropertyTypeThree';
 import Team from '../components/Team';
+
+import TopHeader from '../common/TopHeader';
 import PageTitle from '../common/PageTitle';
 
 const AboutUs = () => {
     return (
         <>
             <PageTitle title="Property Plus - About Us" />
-
+            {/* Top header */}
+            <TopHeader/>
             {/* Header */}
             <Header 
                 headerClass="dark-header has-border" 
@@ -37,7 +40,7 @@ const AboutUs = () => {
 
             <AboutThree/>    
 
-            <Team/>
+            {/* <Team/> */}
 
             <PropertyTypeThree/> 
 

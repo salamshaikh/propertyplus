@@ -58,7 +58,7 @@ const HomeOne = () => {
                 <PropertyType/>
 
                 {/* Video Popup */}
-                <VideoPopup/>
+                {/* <VideoPopup/> */}
 
                 {/* Counter */}
                 <Counter/>
@@ -70,10 +70,10 @@ const HomeOne = () => {
                 <Portfolio/>
 
                 {/* Testimonial */}
-                <Testimonial/>
+                {/* <Testimonial/> */}
 
                 {/* Blog */}
-                <Blog/>
+                {/* <Blog/> */}
 
                 {/* FooterTwo */}
                 <FooterTwo/>

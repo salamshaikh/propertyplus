@@ -167,28 +167,28 @@ export const counterThreeContents = [
 export const faqs = [
     {
         id: 1,
-        btnText: 'Your satisfaction is our top priority?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: 'What services does your real estate agency offer',
+        bodyText: "Our agency offers a comprehensive range of services, including property buying, selling, renting, property management, real estate investment advice, and market analysis. We also provide assistance with mortgage applications and legal documentation."
     },
     {
         id: 2,
-        btnText: 'How do I know if my company?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: 'How do you determine the value of a property',
+        bodyText: "We determine the value of a property using a combination of market analysis, recent sales of comparable properties in the area, the condition of the property, and its unique features. Our experienced agents use their knowledge and advanced tools to provide accurate valuations."
     },
     {
-        id: 3,
-        btnText: 'What kind of services do Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        "id": 3,
+        "btnText": "What are the steps involved in buying a property through your agency",
+        "bodyText": "The steps involved in buying a property through our agency include:\n1. Initial consultation to understand your needs and preferences.\n2. Property search and selection.\n3. Viewing and inspection of properties.\n4. Negotiation and making an offer.\n5. Assistance with mortgage and financing options.\n6. Legal documentation and contract signing.\n7. Finalizing the purchase and property handover."
     },
     {
         id: 4,
-        btnText: 'How long does a typical Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: 'How do you market properties for sale?',
+        bodyText: "We use a multi-faceted marketing approach that includes online listings on major real estate websites, social media promotion, professional photography and virtual tours, email marketing, open houses, and print advertising. Our goal is to reach a broad audience and showcase the property’s best features."
     },
     {
         id: 5,
-        btnText: 'How much does business Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: 'What are your fees and commissions for your services',
+        bodyText: "Our fees and commissions vary depending on the type of service you require. For property sales, our commission is typically a percentage of the final sale price. For rental properties, we charge a percentage of the monthly rent. Property management fees are usually a fixed monthly rate. We provide a detailed fee structure during the initial consultation to ensure transparency."
     }
 ]
 

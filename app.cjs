@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 const cors = require('cors');
+const PORT = 5000;
 
 app.use(cors());
 
@@ -151,7 +152,7 @@ app.post('/postproperty', upload.array('images', 10), (req, res) => {
 
 
 // Start server
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || PORT;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

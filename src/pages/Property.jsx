@@ -6,11 +6,13 @@ import PropertyPageSection from '../components/PropertyPageSection';
 import Cta from '../components/Cta';
 import PageTitle from '../common/PageTitle';
 
+import TopHeader from '../common/TopHeader';
 const Property = () => {
     return (
         <>
         <PageTitle title="Property Plus - Property" />
-
+        {/* Top header */}
+        <TopHeader/>
 
         <main className="body-bg">
             

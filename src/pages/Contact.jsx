@@ -8,12 +8,14 @@ import ContactUsSection from '../components/ContactUsSection';
 import PageTitle from '../common/PageTitle';
 import { HelmetProvider } from 'react-helmet-async';
 
+import TopHeader from '../common/TopHeader';
 const Contact = () => {
     return (
         <>
             <PageTitle title="Property Plus - Contact" />
 
-
+            {/* Top header */}
+            <TopHeader/>
             <main className="body-bg">
                 
                 {/* Header */}

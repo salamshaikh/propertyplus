@@ -118,13 +118,14 @@ export const navMenus = [
             path: "/property",
         },
         {
-            text: "Search Property",
-            path: "/property-sidebar",
-        },
-        {
             text: "Post Property",
             path: "/post-property",
         },
+        // {
+        //     text: "Search Property",
+        //     path: "/property-sidebar",
+        // },
+        
         // {
         //     text: "Map Location",
         //     path: "/map-location",

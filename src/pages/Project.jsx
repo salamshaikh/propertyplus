@@ -5,12 +5,14 @@ import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
 import ProjectSection from '../components/ProjectSection';
 import PageTitle from '../common/PageTitle';
+import TopHeader from '../common/TopHeader';
 
 const Project = () => {
     return (
         <>
         <PageTitle title="Property Plus - Project" />
-
+            {/* Top header */}
+            <TopHeader/>
         <main className="body-bg">
             
             {/* Header */}
