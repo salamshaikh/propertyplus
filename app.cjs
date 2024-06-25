@@ -16,10 +16,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // MySQL Connection
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'property'
+  // host: 'localhost',
+  // user: 'root',
+  // password: '',
+  // database: 'property'
+  host: 'o3iyl77734b9n3tg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+  user: 'wp062e680v3b8qd5',
+  password: 'o775cw5cuzm9ydsm',
+  database: 'lk3i5sx0rlwbm3o2'
+  
   // host: "demotest.mysql.database.azure.com",
   // user: "codecwsq_wp605",
   // password: "Welcome@123",
