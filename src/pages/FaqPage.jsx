@@ -11,7 +11,7 @@ import PageTitle from '../common/PageTitle';
 const FaqPage = () => {
     return (
         <>
-        <PageTitle title="CityScape - Frequently Ask Question" />
+        <PageTitle title="Property Plus - FAQ" />
 
             {/* Header */}
             <Header 

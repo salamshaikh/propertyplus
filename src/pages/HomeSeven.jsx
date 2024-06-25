@@ -10,7 +10,7 @@ import PageTitle from '../common/PageTitle';
 const HomeSeven = () => {
     return (
         <>
-        <PageTitle title="CityScape - Home Seven" />
+        <PageTitle title="Property Plus - Home" />
 
             <OffCanvas/>
             <MobileMenu/>

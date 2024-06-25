@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const Property = () => {
     return (
         <>
-        <PageTitle title="CityScape - Property With Sidebar" />
+        <PageTitle title="Property Plus - Property With Sidebar" />
 
         <main className="body-bg">
             

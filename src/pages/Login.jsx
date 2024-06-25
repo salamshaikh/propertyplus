@@ -10,7 +10,7 @@ import LoginSection from '../components/LoginSection';
 const Login = () => {
     return (
         <>
-        <PageTitle title="CityScape - Login" />
+        <PageTitle title="Property Plus - Login" />
 
         <main className="body-bg">
             

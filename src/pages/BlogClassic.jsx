@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const BlogClassic = () => {
     return (
         <>
-        <PageTitle title="CityScape - Blog Classic" />
+        <PageTitle title="Property Plus - Blog Classic" />
 
             {/* Header */}
             <Header 

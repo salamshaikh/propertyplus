@@ -14,7 +14,7 @@ const BlogDetails = () => {
     
     return (
         <>
-            <PageTitle title="CityScape - Blog Details" />
+            <PageTitle title="Property Plus - Blog Details" />
 
             {/* Header */}
             <Header 

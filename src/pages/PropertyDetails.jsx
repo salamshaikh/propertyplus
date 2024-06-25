@@ -13,7 +13,7 @@ const PropertyDetails = () => {
     
     return (
         <>
-        <PageTitle title="CityScape - Property Details" />
+        <PageTitle title="Property Plus - Property Details" />
 
             {/* Header */}
             <Header 

@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const MapLocation = () => {
     return (
         <>
-        <PageTitle title="CityScape - Map Location" />
+        <PageTitle title="Property Plus - Map Location" />
 
         <main className="body-bg">
             

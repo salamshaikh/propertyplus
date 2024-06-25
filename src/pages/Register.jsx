@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const Register = () => {
     return (
         <>
-        <PageTitle title="CityScape - Registration" />
+        <PageTitle title="Property Plus - Registration" />
 
         <main className="body-bg">
             

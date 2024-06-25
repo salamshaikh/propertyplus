@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const Checkout = () => {
     return (
         <>
-        <PageTitle title="CityScape - Checkout" />
+        <PageTitle title="Property Plus - Checkout" />
 
             {/* Header */}
             <Header 

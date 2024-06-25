@@ -16,7 +16,7 @@ const NotFound = () => {
     
     return (
         <>
-        <PageTitle title="CityScape - 404 Page Not Found" />
+        <PageTitle title="Property Plus - 404 Page Not Found" />
 
             <div className="not-found text-center">
                 <div className="not-found__inner">

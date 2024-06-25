@@ -85,24 +85,32 @@ export const topHeaderInfos = [
 export const navMenus = [
     {
       text: "Home",
-      path: "/#",
+      path: "/",
       submenus: [
-        {
-            text: "Home One",
-            path: "/",
-        },
-        {
-            text: "Home Two",
-            path: "/home-two",
-        },
-        {
-            text: "Home Three",
-            path: "/home-three",
-        },
+        // {
+        //     text: "Home One",
+        //     path: "/",
+        // },
+        // {
+        //     text: "Home Two",
+        //     path: "/home-two",
+        // },
+        // {
+        //     text: "Home Three",
+        //     path: "/home-three",
+        // },
       ],
     },
     {
-      text: "Pages",
+        text: "About Us",
+        path: "/about-us",
+    },
+    {
+        text: "FAQ",
+        path: "/faq",
+    },
+    {
+      text: "Property",
       path: "#",
       submenus: [
         {
@@ -121,14 +129,7 @@ export const navMenus = [
         //     text: "Map Location",
         //     path: "/map-location",
         // },
-        {
-            text: "About Us",
-            path: "/about-us",
-        },
-        {
-            text: "Faq",
-            path: "/faq",
-        },
+        
         // {
         //     text: "Cart",
         //     path: "/cart",
