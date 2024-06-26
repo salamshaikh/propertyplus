@@ -5,6 +5,8 @@ import Breadcrumb from '../common/Breadcrumb';
 import PropertyPageSection from '../components/PropertyPageSection';
 import Cta from '../components/Cta';
 import PageTitle from '../common/PageTitle';
+import MobileMenu from '../common/MobileMenu';
+import OffCanvas from '../common/OffCanvas';
 
 import TopHeader from '../common/TopHeader';
 const Property = () => {
@@ -12,6 +14,8 @@ const Property = () => {
         <>
         <PageTitle title="Property Plus - Property" />
         {/* Top header */}
+        <OffCanvas/>
+        <MobileMenu/>
         <TopHeader/>
 
         <main className="body-bg">

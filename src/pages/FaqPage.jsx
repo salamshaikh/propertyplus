@@ -8,6 +8,8 @@ import FaqContactUs from '../components/FaqContactUs';
 import CounterFour from '../components/CounterFour';
 import PageTitle from '../common/PageTitle';
 import TopHeader from '../common/TopHeader';
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
 
 const FaqPage = () => {
     return (
@@ -15,6 +17,9 @@ const FaqPage = () => {
         <PageTitle title="Property Plus - FAQ" />
             {/* Top header */}
             <TopHeader/>
+            
+            <OffCanvas/>
+            <MobileMenu/>
             {/* Header */}
             <Header 
                 headerClass="dark-header has-border" 

@@ -6,10 +6,16 @@ import Cta from '../components/Cta';
 import AddListingSection from '../components/AddListingSection';
 import PageTitle from '../common/PageTitle';
 
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
+
 const PostProperty = () => {
     return (
         <>
         <PageTitle title="Property Plus - Post Property" />
+
+        <OffCanvas/>
+        <MobileMenu/>
 
         <main className="body-bg">
             

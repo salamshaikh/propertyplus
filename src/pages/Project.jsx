@@ -6,6 +6,8 @@ import Cta from '../components/Cta';
 import ProjectSection from '../components/ProjectSection';
 import PageTitle from '../common/PageTitle';
 import TopHeader from '../common/TopHeader';
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
 
 const Project = () => {
     return (
@@ -13,6 +15,8 @@ const Project = () => {
         <PageTitle title="Property Plus - Project" />
             {/* Top header */}
             <TopHeader/>
+            <OffCanvas/>
+            <MobileMenu/>
         <main className="body-bg">
             
             {/* Header */}

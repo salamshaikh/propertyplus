@@ -7,6 +7,8 @@ import ContactTop from '../components/ContactTop';
 import ContactUsSection from '../components/ContactUsSection';
 import PageTitle from '../common/PageTitle';
 import { HelmetProvider } from 'react-helmet-async';
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
 
 import TopHeader from '../common/TopHeader';
 const Contact = () => {
@@ -14,6 +16,8 @@ const Contact = () => {
         <>
             <PageTitle title="Property Plus - Contact" />
 
+            <OffCanvas/>
+            <MobileMenu/>
             {/* Top header */}
             <TopHeader/>
             <main className="body-bg">

@@ -5,16 +5,20 @@ import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
 import AboutThree from '../components/AboutThree';
 import PropertyTypeThree from '../components/PropertyTypeThree';
-import Team from '../components/Team';
+// import Team from '../components/Team';
 
 import TopHeader from '../common/TopHeader';
 import PageTitle from '../common/PageTitle';
+import MobileMenu from '../common/MobileMenu';
 
 const AboutUs = () => {
     return (
         <>
             <PageTitle title="Property Plus - About Us" />
             {/* Top header */}
+            
+            <OffCanvas/>
+            <MobileMenu/>
             <TopHeader/>
             {/* Header */}
             <Header 

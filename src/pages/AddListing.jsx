@@ -5,12 +5,17 @@ import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
 import AddListingSection from '../components/AddListingSection';
 import PageTitle from '../common/PageTitle';
+import OffCanvas from '../common/OffCanvas';
+
+import MobileMenu from '../common/MobileMenu';
 
 const AddListing = () => {
     return (
         <>
         <PageTitle title="Property Plus - Add Listing" />
 
+        <OffCanvas/>
+        <MobileMenu/>
         <main className="body-bg">
             
             {/* Header */}
