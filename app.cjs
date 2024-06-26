@@ -39,6 +39,12 @@ db.connect((err) => {
   console.log('MySQL connected...');
 });
 
+// Serve index.html for all routes to support client-side routing
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
+
+
 // POST endpoint to handle form submission
 app.post('/subscribe', (req, res) => {
   const { email } = req.body;
