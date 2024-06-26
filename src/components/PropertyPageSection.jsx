@@ -10,7 +10,7 @@ const PropertyPageSection = () => {
     const [properties, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/properties')
+        axios.get('https://propertyplus-73fd49e82310.herokuapp.com/api/properties')
             .then(response => {
                 setData(response.data);
             })
