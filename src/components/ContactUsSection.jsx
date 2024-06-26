@@ -38,7 +38,7 @@ const ContactUsSection = () => {
                                 <span className="text-gradient fw-semibold">Contact us</span> 
                             </span>
                             <h2 className="section-heading__title">Do you have any questions? </h2>
-                            <p className="section-heading__desc">For your car we will do everything: advice, repairs, and maintenance. We are the preferred choice by many car owners because...</p>
+                            <p className="section-heading__desc">For your car we will do everything: advice, repairs, and maintenance. We are the preferred choice by many home owners because...</p>
                         </div>
                         <div className="contact-form__form">
                             <form ref={form} onSubmit={sendEmail} className="contact-form__form">

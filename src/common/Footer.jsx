@@ -15,20 +15,20 @@ const Footer = () => {
                 <div className="container container-two">
                     <div className="row gy-5">
 
-                        <div className="col-xl-3 col-sm-6 col-xsm-6">
+                        <div className="col-xl-4 col-sm-6 col-xsm-6">
                             <div className="footer-item">
                                 <FooterLogoDesc/>
                                 <SocialList/>
                             </div>
                         </div>
                         
-                        <div className="col-xl-3 col-sm-6 col-xsm-6">
+                        <div className="col-xl-4 col-sm-6 col-xsm-6">
                             <FooterUsefulItem/>
                         </div>
-                        <div className="col-xl-3 col-sm-6 col-xsm-6">
+                        <div className="col-xl-4 col-sm-6 col-xsm-6">
                             <FooterServiceItem/>
                         </div>
-                        <div className="col-xl-3 col-sm-6 col-xsm-6">
+                        {/* <div className="col-xl-3 col-sm-6 col-xsm-6">
                             <div className="footer-item">
                                 <h6 className="footer-item__title">Our gallery</h6>
                                 <div className="gallery-list">
@@ -46,7 +46,7 @@ const Footer = () => {
                                     }
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
