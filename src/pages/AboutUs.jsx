@@ -10,6 +10,7 @@ import PropertyTypeThree from '../components/PropertyTypeThree';
 import TopHeader from '../common/TopHeader';
 import PageTitle from '../common/PageTitle';
 import MobileMenu from '../common/MobileMenu';
+import OffCanvas from '../common/OffCanvas';
 
 const AboutUs = () => {
     return (
