@@ -1,6 +1,6 @@
 {
   "name": "react-3-real-estate",
-  "homepage": "https://propertypluss.netlify.app",
+  "homepage": "https://propertyplus-73fd49e82310.herokuapp.com/property",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -49,7 +49,6 @@
     "vite": "^5.1.6"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "vite.config.js",
   "keywords": [
     "react",
     "vite",
