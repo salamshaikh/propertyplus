@@ -67,10 +67,14 @@ const Filter = (props) => {
                                 <select className="select common-input" value={dataType} onChange={handleDataTypeChange}>
                                     <option value="Type" disabled defaultValue>Type</option>
                                     <option value="All">All</option>
-                                    <option value="Houses">Houses</option>
-                                    <option value="Apartments">Apartments</option>
+                                    <option value="1 BHK">1 BHK</option>
+                                    <option value="2 BHK">2 BHK</option>
+                                    <option value="3 BHK">3 BHK</option>
+                                    <option value="4 BHK">4 BHK</option>
+                                    <option value="5 BHK">5 BHK</option>
+                                    <option value="Shop">Shop</option>
                                     <option value="Office">Office</option>
-                                    <option value="Villa">Villa</option>
+                                    <option value="Plot">Plot</option>
                                 </select>
                             </div>
                         </div>
@@ -78,13 +82,15 @@ const Filter = (props) => {
                             <div className="select-has-icon icon-black">
                                 <select className="select common-input" value={dataLocation} onChange={handleDataLocationChange}>
                                     <option value="Location" disabled defaultValue>Location</option>
-                                    <option value="All"> Country</option>
-                                    <option value="Bangladesh" data-location="Bangladesh">Bangladesh</option>
-                                    <option value="Japan" data-location="Japan">Japan</option>
-                                    <option value="Korea" data-location="Korea">Korea</option>
-                                    <option value="Singapore" data-location="Singapore">Singapore</option>
-                                    <option value="Germany" data-location="Germany">Germany</option>
-                                    <option value="Thailand" data-location="Thailand">Thailand</option>
+                                    <option value="All"> All</option>
+                                    <option value="Nerul / Seawoods">Nerul / Seawoods</option>
+                                    <option value="Ulwe">Ulwe</option>
+                                    <option value="Vashi">Vashi</option>
+                                    <option value="Koper Khairane">Koper Khairane</option>
+                                    <option value="CBD Belapur">CBD Belapur</option>
+                                    <option value="Airoli">Airoli</option>
+                                    <option value="Ghansoli">Ghansoli</option>
+                                    <option value="Rabale">Rabale</option>
                                 </select>
                             </div>
                         </div>

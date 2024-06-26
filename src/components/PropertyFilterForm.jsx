@@ -33,7 +33,11 @@ const PropertyFilterForm = () => {
                                 <option value="1 BHK">1 BHK</option>
                                 <option value="2 BHK">2 BHK</option>
                                 <option value="3 BHK">3 BHK</option>
+                                <option value="4 BHK">4 BHK</option>
+                                <option value="5 BHK">5 BHK</option>
+                                <option value="Shop">Shop</option>
                                 <option value="Office">Office</option>
+                                <option value="Plot">Plot</option>
                             </select>
                             <span className="input-icon input-icon--left text-gradient">
                                 <img src="assets/images/icons/type.svg" alt=""/>
