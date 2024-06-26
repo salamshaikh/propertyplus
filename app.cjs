@@ -39,6 +39,11 @@ db.connect((err) => {
   console.log('MySQL connected...');
 });
 
+
+// Serve static files from the 'dist' directory
+app.use(express.static(path.join(__dirname, 'dist')));
+
+
 // Serve index.html for all routes to support client-side routing
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
